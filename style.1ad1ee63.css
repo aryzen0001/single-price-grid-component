@@ -1,0 +1,181 @@
+/**************************************** Base ****************************************/
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img,
+svg,
+video,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+span {
+  display: inline-block;
+}
+
+/* Global styles */
+body {
+  color: #ffffff;
+  font-family: Karla;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.1666666667;
+  letter-spacing: -0.0125rem;
+  background: #E6EFF5;
+}
+
+h2 {
+  font-size: 18px;
+  letter-spacing: -0.0140625rem;
+}
+
+/**************************************** layout ****************************************/
+/* Grid */
+body {
+  margin: 10.1875rem 25.125rem 10.125rem 25.1875rem;
+}
+
+.component {
+  width: 39.6875rem;
+  height: 29.6875rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.call-to-action {
+  padding: 2.5rem;
+  grid-column: 1/3;
+}
+
+.plan-info {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  padding: 2.5rem 2.5rem 2.4375rem 2.5rem;
+}
+.plan-info .cost {
+  width: 3.8125rem;
+}
+
+.company-info {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  padding: 2.5rem;
+}
+
+/* Flow */
+.call-to-action .heading {
+  margin-bottom: 1.5rem;
+}
+.call-to-action .subheading {
+  margin-bottom: 0.6875rem;
+}
+
+.plan-info .heading {
+  margin-bottom: 1.125rem;
+}
+.plan-info .cost {
+  margin-bottom: 0.25rem;
+  margin-right: 0.6875rem;
+}
+.plan-info .cost-info {
+  margin-bottom: 1.625rem;
+}
+
+.company-info .heading {
+  margin-bottom: 1.125rem;
+}
+
+/**************************************** blocks ****************************************/
+/* elements */
+.call-to-action {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.call-to-action .heading {
+  color: #2AB3B1;
+  font-size: 24px;
+  line-height: 1.1666666667;
+  letter-spacing: -0.01875rem;
+}
+.call-to-action .subheading {
+  color: #C0DF33;
+}
+.call-to-action p {
+  color: #9AA7BE;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.0125rem;
+}
+
+.plan-info {
+  background: #2ab3b1;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.plan-info .heading {
+  font-size: 1.125rem;
+}
+.plan-info .cost {
+  font-size: 2rem;
+  line-height: 1.15625;
+  letter-spacing: -0.025rem;
+  vertical-align: middle;
+}
+.plan-info .billing-period {
+  font-weight: 400;
+  line-height: 1.625;
+  opacity: 0.5;
+}
+.plan-info .cost-info {
+  font-weight: 400;
+  line-height: 1.625;
+}
+
+.company-info {
+  background: rgba(255, 255, 255, 0.1518554688);
+}
+.company-info .heading {
+  font-size: 18px;
+  line-height: 1.1666666667;
+}
+.company-info p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  letter-spacing: -0.0109375rem;
+}
+
+/* components */
+.component {
+  border-radius: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}
+
+.plan-info button {
+  width: 237px;
+  padding: 0.9375rem 5.5625rem 0.875rem 5.5625rem;
+  border-style: none;
+  border-radius: 5px;
+  background: #c0df33;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  line-height: 1.1875;
+  letter-spacing: -0.2px;
+}
+
+/*# sourceMappingURL=/style.1ad1ee63.css.map */
